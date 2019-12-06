@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [TotalFleetSmokeSuite]" parallel="classes">
+  <test thread-count="2" name="TotalFleetSmokeTestCases(failed)" parallel="classes">
+    <classes>
+      <class name="org.cts.oneframework.cucumber.testrunners.SmokeSuiteRunner">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="15 18 19 20 33 39 52 59 70 71 72 76 77 78 79 82 85 86 89 90 93 94 97 98 99 103"/>
+        </methods>
+      </class> <!-- org.cts.oneframework.cucumber.testrunners.SmokeSuiteRunner -->
+    </classes>
+  </test> <!-- TotalFleetSmokeTestCases(failed) -->
+</suite> <!-- Failed suite [TotalFleetSmokeSuite] -->
